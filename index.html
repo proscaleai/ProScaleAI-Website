@@ -20,6 +20,11 @@
         background-position: center top;
         height: 55vh; /* Reduced height for mobile devices */
       }
+      /* Ensure the About section fills the remaining viewport space and touches the hero image */
+      #about {
+        min-height: calc(100vh - 55vh);
+        padding-top: 0; /* Remove top padding so content touches the hero section */
+      }
     }
   </style>
 </head>
